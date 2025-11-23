@@ -1,6 +1,6 @@
 'use client'
 
-import { SplineScene } from "@/components/ui/splite";
+import { SplineScene } from "@/components/ui/spline";
 import { Card } from "@/components/ui/card"
 import { Spotlight } from "@/components/ui/spotlight"
 import { useVoiceInteraction } from "@/hooks/useVoiceInteraction"
@@ -8,7 +8,7 @@ import { sendAudioToServer } from "@/services/voiceAPI"
 import { Mic, MicOff, Loader2, Volume2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
  
-export function SplineSceneBasic() {
+export function VoiceAssistant() {
   const { state, startRecording, stopRecording, error, isSupported } = useVoiceInteraction(
     async (audioBlob) => {
       try {
@@ -57,7 +57,7 @@ export function SplineSceneBasic() {
   };
 
   return (
-    <Card className="w-full h-[900px] bg-black/[0.96] relative overflow-hidden">
+    <Card className="w-full h-full bg-black/[0.96] relative overflow-hidden">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"

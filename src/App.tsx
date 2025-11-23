@@ -1,9 +1,9 @@
 import './App.css'
-import { SplineSceneBasic } from './components/demo'
+import { VoiceAssistant } from './components/VoiceAssistant'
 
 function App() {
   return (
-    <SplineSceneBasic />
+    <VoiceAssistant />
   )
 }
 

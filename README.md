@@ -1,5 +1,9 @@
 # 🎤 Sensai - Voice AI Interaction Platform
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+![Sensai Demo](public/demo.png)
+
 Real-time voice interaction app powered by Google's Gemini Live API. Speak naturally and get instant voice responses from AI.
 
 ## ✨ Features
